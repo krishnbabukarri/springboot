@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y sudo && \
     sudo mkdir -p /data/db && \
     sudo chown vscode:vscode -R /data/db
 
-# Setup ENV
+# Setup for the new ENV
 ENV COOKIE_DOMAIN=github.dev
 ENV HOME_LOCATION=https://$CODESPACE_NAME-8000.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN
 ENV API_LOCATION=https://$CODESPACE_NAME-3000.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN
