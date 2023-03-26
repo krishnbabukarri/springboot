@@ -14,7 +14,6 @@ RUN apt-get update && apt-get install -y sudo && \
     cd /tmp/mongodb && \
     wget -qOmongodb.tgz https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-${MONGODB_VERSION}.tgz && \
     tar -zxvf mongodb.tgz && \
-    cd mongodb-* && \
     sudo cp bin/* /usr/local/bin/ && \
     rm -rf /tmp/mongodb && \
     sudo mkdir -p /data/db && \
