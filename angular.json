@@ -9,7 +9,7 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
-      "architect": {
+      "architect": {bnmn
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
